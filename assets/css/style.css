@@ -52,3 +52,30 @@
 .imgCarousel{
   object-fit: cover;
 }
+
+
+.faq-card{
+
+  margin-bottom: 30px;
+}
+
+.img-card-store{
+  margin-top: 10px ;
+  border-radius: 7px;
+  object-fit: cover;
+}
+
+.card{
+  margin-bottom: 5rem;
+  width: 18rem;
+}
+
+
+.form-login{
+  margin-bottom: 15%;
+  margin-top: 15%;
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
