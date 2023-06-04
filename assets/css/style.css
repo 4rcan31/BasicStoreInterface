@@ -1,0 +1,53 @@
+
+
+
+.carousel {
+  margin-bottom: 4rem; /* Darle un espacio abajo de 4 rem */
+}
+
+
+
+.carousel-item {
+  height: 32rem; /* Las slides de los carousel que tenga un alto de 32 rem */
+}
+
+
+/* Dar estilos a las imagenes de los slides */
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+
+
+/* Alinear al centro y darle un espacio abajo para la siguiente fila */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+
+/* Darle un formato a los h2 */
+.marketing h2 {
+  font-weight: 400; 
+}
+
+
+
+
+
+/* Darle un espacio al hr para que todo no se vea junto */
+.divider {
+  margin: 5rem 0;
+}
+
+
+
+
+/* Para darle un pequeno zoom en el caso de que la imagen no sea de las dimensiones del carousel */
+.imgCarousel{
+  object-fit: cover;
+}
