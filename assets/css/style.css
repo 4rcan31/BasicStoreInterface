@@ -23,19 +23,51 @@
 
 
 
+img{
+  object-fit: cover;
+}
+
+
 
 /* Alinear al centro y darle un espacio abajo para la siguiente fila */
 .marketing .col-lg-4 {
   margin-bottom: 1.5rem;
   text-align: center;
+  
 }
 
 
 /* Darle un formato a los h2 */
 .marketing h2 {
   font-weight: 400; 
+  font-weight: bolder;
+  color: #8ebac1;
+  font-size: 35px;
+  
 }
 
+
+h3{
+  color: #487E8F;
+  text-align: center;
+  font-size: 55px;
+  font-weight: bolder;
+  height: 9rem;
+}
+
+
+
+.lead{
+  font-size: 22px;
+  text-align: justify;
+}
+
+.leader{
+  font-size: 22px;
+  text-align: justify;
+  margin-left: 65px;
+  margin-right: 65px;
+}
 
 
 
@@ -43,12 +75,12 @@
 /* Darle un espacio al hr para que todo no se vea junto */
 .divider {
   margin: 5rem 0;
+  
 }
 
 
 
-
-/* Para darle un pequeno zoom en el caso de que la imagen no sea de las dimensiones del carousel */
+/* Para darle un pequeño zoom en el caso de que la imagen no sea de las dimensiones del carousel */
 .imgCarousel{
   object-fit: cover;
 }
@@ -79,3 +111,12 @@
   padding-right: 20%;
 }
 
+.social-btn {
+  background-color: #8ebac1;
+  border-color: #8ebac1;
+  color: #8ebac1;
+}
+.social-btn:hover{
+  background-color: #487E8F;
+  border-color: #487E8F;
+}
