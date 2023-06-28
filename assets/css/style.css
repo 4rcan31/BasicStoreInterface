@@ -87,8 +87,10 @@ h3{
 
 
 .faq-card{
-
-  margin-bottom: 30px;
+  margin-left: 1%; /* Darle un espaciaado a la izquierda a todas las preugntas */
+  margin-bottom: 30px; /* Darle un espaciado para abajo, para que las filas se distingan */
+  display: inline-block; /* Para que las preguntas se ordenen en filas, y no en columnas */
+  vertical-align:text-top; /* Para que todo se alinee arriba (no se por que al poner el inline block, se ordenan abajo, como que "si tuvieran gravedad XD", por eso esta regla) */
 }
 
 .img-card-store{
