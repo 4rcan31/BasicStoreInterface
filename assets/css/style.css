@@ -105,7 +105,7 @@ h3{
 }
 
 
-.form-login{
+.form-login, .form-register{
   margin-bottom: 15%;
   margin-top: 15%;
   padding-top: 3%;
